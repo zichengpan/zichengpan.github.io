@@ -13,14 +13,14 @@ main:
     conference_short: TNNLS
     conference: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, Early Access.
     pdf: https://ieeexplore.ieee.org/abstract/document/10426795
-    image: /assets/img/tnnls_deepLA.png
+    image: /assets/img/tnnls_deepLA_resized.png
 
   - title: Condition Monitoring of Distribution Power Network Assets Using PMU Measurements
     authors: Feifei Bai, Yi Cui, Ruifeng Yan, Tapan Kumar Saha, <strong>Zicheng Pan</strong>, Ge Zhang, Matthew Zillmann, David Dart
     conference_short: TIA
     conference: IEEE Transactions on Industry Applications <strong>(TIA)</strong>, Early Access.
     pdf: https://ieeexplore.ieee.org/abstract/document/10418495
-    image: /assets/img/tia.png
+    image: /assets/img/tia_resized.png
 
   - title: "Wakening Past Concepts without Past Data: Class-Incremental Learning from Online Placebos"
     authors: <strong>Zicheng Pan</strong>, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao
@@ -36,7 +36,7 @@ main:
     conference: Digital Image Computing Techniques and Applications <strong>(DICTA)</strong>, 2021.
     pdf: https://ieeexplore.ieee.org/abstract/document/9647389
     code: https://github.com/zichengpan/DICTA-Masked_Guided_ultra_FGVC
-    image: /assets/img/dicta.png
+    image: /assets/img/dicta_resized.png
     # notes: Spotlight
 
   - title: Extraction of dynamic frequency response characteristics and modelling of modern air conditioners
@@ -52,4 +52,4 @@ main:
     conference_short: ROBIO
     conference: IEEE International Conference on Robotics and Biomimetics <strong>(ROBIO)</strong>, 2019.
     pdf: https://ieeexplore.ieee.org/abstract/document/8961838
-    image: /assets/img/robio.png
+    image: /assets/img/robio_resized.png

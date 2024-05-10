@@ -1,0 +1,55 @@
+main:
+
+  - title: "DyCR: A Dynamic Clustering and Recovering Network for Few-Shot Class-Incremental Learning"
+    authors: <strong>Zicheng Pan</strong>, Xiaohan Yu, Miaohua Zhang, Weichuan Zhang, Yongsheng Gao
+    conference_short: TNNLS
+    conference: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, Accepted.
+    image: /assets/img/tnnls_dycr.png
+    code: https://github.com/zichengpan/DyCR
+
+
+  - title: Self-Supervised Lie Algebra Representation Learning via Optimal Canonical Metric
+    authors: Xiaohan Yu*, <strong>Zicheng Pan*</strong>, Yang Zhao, Yongsheng Gao <br> (* Equal contribution)
+    conference_short: TNNLS
+    conference: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, Early Access.
+    pdf: https://ieeexplore.ieee.org/abstract/document/10426795
+    image: /assets/img/tnnls_deepLA.png
+
+  - title: Condition Monitoring of Distribution Power Network Assets Using PMU Measurements
+    authors: Feifei Bai, Yi Cui, Ruifeng Yan, Tapan Kumar Saha, <strong>Zicheng Pan</strong>, Ge Zhang, Matthew Zillmann, David Dart
+    conference_short: TIA
+    conference: IEEE Transactions on Industry Applications <strong>(TIA)</strong>, Early Access.
+    pdf: https://ieeexplore.ieee.org/abstract/document/10418495
+    image: /assets/img/tia.png
+
+  - title: "Wakening Past Concepts without Past Data: Class-Incremental Learning from Online Placebos"
+    authors: <strong>Zicheng Pan</strong>, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao
+    conference_short: WACV
+    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2023.
+    pdf: https://openaccess.thecvf.com/content/WACV2023/html/Pan_SSFE-Net_Self-Supervised_Feature_Enhancement_for_Ultra-Fine-Grained_Few-Shot_Class_Incremental_Learning_WACV_2023_paper.html
+    code: https://github.com/zichengpan/SSFE-Net
+    image: /assets/img/wacv_ssfe.png
+
+  - title: Mask-guided feature extraction and augmentation for ultra-fine-grained visual categorization
+    authors: <strong>Zicheng Pan</strong>, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao
+    conference_short: DICTA
+    conference: Digital Image Computing Techniques and Applications <strong>(DICTA)</strong>, 2021.
+    pdf: https://ieeexplore.ieee.org/abstract/document/9647389
+    code: https://github.com/zichengpan/DICTA-Masked_Guided_ultra_FGVC
+    image: /assets/img/dicta.png
+    # notes: Spotlight
+
+  - title: Extraction of dynamic frequency response characteristics and modelling of modern air conditioners
+    authors: Feifei Bai, Ruifeng Yan, Tapan Kumar Saha, Yi Cui, <strong>Zicheng Pan</strong>
+    conference_short: TSG
+    conference: IEEE Transactions on Smart Grid, 2020.
+    pdf: https://ieeexplore.ieee.org/abstract/document/9142241
+    image: /assets/img/tsg.png
+    # notes: Early Accept
+
+  - title: Continual Detection Transformer for Incremental Object Detection
+    authors: Xun Yu, <strong>Zicheng Pan</strong>, Yongsheng Gao
+    conference_short: ROBIO
+    conference: IEEE International Conference on Robotics and Biomimetics <strong>(ROBIO)</strong>, 2019.
+    pdf: https://ieeexplore.ieee.org/abstract/document/8961838
+    image: /assets/img/robio.png

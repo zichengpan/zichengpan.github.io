@@ -4,12 +4,12 @@ position: PhD Candidate
 affiliation: Griffith University
 affiliation_link: https://www.griffith.edu.au/
 # affiliation_logo: ./assets/img/Griffith University New.png
-email: zicheng.pan [at] griffith.edu.au
+email: zicheng.pan [at] griffithuni.edu.au
 email2: zicheng.pan [at] uqconnect.edu.au
 
 # Search Engine Optimization (SEO)
 keywords: zicheng pan, pan zicheng, zichengpan, panzicheng
-canonical: https://www.cs.jhu.edu/~yyliu/
+canonical: https://zichengpan.github.io/
 description: Zicheng Pan is a PhD candidate at Griffith University. His research lies in domain adaptation, incremental learning, and visual-language models.
 
 # The option is used to show the last update time.

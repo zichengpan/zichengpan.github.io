@@ -147,6 +147,12 @@
         </a>
         {% endif %}
 
+        {% if site.email_link %}
+        <a style="margin: 0 5px 0 0" href="{{ site.email_link }}" target="_blank" title="Email">
+          <i class="fa fa-envelope" style="font-size:1.3rem;"></i>
+        </a>
+        {% endif %}
+
         {% if site.linkedin %}
         <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
           <i class="fab fa-linkedin"></i>

@@ -4,8 +4,8 @@ position: PhD Candidate
 affiliation: Griffith University
 affiliation_link: https://www.griffith.edu.au/
 # affiliation_logo: ./assets/img/Griffith University New.png
-email: zicheng.pan [at] griffithuni.edu.au
-email2: zicheng.pan [at] uqconnect.edu.au
+# email: zicheng.pan[at]griffithuni.edu.au
+# email2: zicheng.pan[at]uqconnect.edu.au
 
 # Search Engine Optimization (SEO)
 keywords: zicheng pan, pan zicheng, zichengpan, panzicheng
@@ -20,7 +20,8 @@ link_type: icon #text/icon
 google_scholar: https://scholar.google.com/citations?user=GsURDp0AAAAJ
 github_link: https://github.com/zichengpan
 linkedin: https://www.linkedin.com/in/zicheng-pan-001/
-orcid_link: https://orcid.org/my-orcid?orcid=0000-0001-5890-0165
+# orcid_link: https://orcid.org/my-orcid?orcid=0000-0001-5890-0165
+email_link: "mailto:zicheng.pan@uqconnect.edu.au"
 
 # Images 
 avatar: ./assets/img/profile.jpg

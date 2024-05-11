@@ -4,7 +4,7 @@
 
 <ul>
 <li><strong>[Apr. 2024]</strong> Our paper about few-shot class-incremental learning (FSCIL) is accepted to TNNLS.</li>
-<li><strong>[Feb. 2024]</strong> I serve as an Reviewer of <a href="https://2024.acmmm.org/">ACM MM 2024</a>, <a href="https://2024.ieeeicme.org/">ICME 2024</a> and <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385">TNNLS</a>.</li>
+<li><strong>[Feb. 2024]</strong> I serve as a Reviewer of <a href="https://2024.acmmm.org/">ACM MM 2024</a>, <a href="https://2024.ieeeicme.org/">ICME 2024</a> and <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385">TNNLS</a>.</li>
 <li><strong>[Jan. 2024]</strong> Our paper about anomaly detection on power grid is accepted to TIA.</li>
 <li><strong>[Jan. 2024]</strong> Our paper about Lie algebra enabled ultra-FGVC is accepted to TNNLS.</li>
 

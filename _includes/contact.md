@@ -4,6 +4,6 @@
 <p>
 <strong>Office Location:</strong> Griffith University Nathan Campus, N66
 <br />
-<strong>Email:</strong> <email>zicheng.pan (at) griffith.edu.au</email>
+<strong>Email:</strong> <email>zicheng.pan [at] griffith.edu.au</email>
 <br />
 <strong>Phone:</strong> (048) 135 9710</p>

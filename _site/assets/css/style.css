@@ -120,7 +120,7 @@ header ul li + li + li { border-right: none; width: 89px; }
 
 header ul a strong { font-size: 14px; display: block; color: #222; }
 
-section { width: 650px; float: right; padding-top: 1.2em; padding-bottom: 50px; }
+section { width: 650px; float: right; padding-top: 1.2em; padding-bottom: 30px; }
 
 small { font-size: 11px; }
 
@@ -153,3 +153,23 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 .bibref { font-size: 70%; margin-top: 10px; margin-left: 0px; display: none; font-family: monospace; }
 
 /*# sourceMappingURL=style.css.map */
+body { background-color: #fff; font: 16px/1.5 'Crimson Pro', serif; color: #595959; }
+
+.education-section { line-height: 1.5; }
+
+.education-title { font-size: 24px; margin-bottom: 10px; font-weight: bold; color: #002D72; }
+
+.education-entry { margin-bottom: 20px; }
+
+.education-entry strong { font-size: 18px; }
+
+.education-entry .year { margin-left: 5px; color: #555; }
+
+.education-details { margin-top: 2px; margin-left: 20px; }
+
+.education-details p { margin-bottom: 0; padding-bottom: 5px; }
+
+/* Reduced spacing between paragraphs */
+a { color: #39c; text-decoration: none; }
+
+a:hover { color: #069; }

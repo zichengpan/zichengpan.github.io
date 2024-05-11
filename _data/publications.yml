@@ -30,13 +30,13 @@ main:
     code: https://github.com/zichengpan/SSFE-Net
     image: /assets/img/wacv_ssfe.png
 
-  - title: Mask-guided feature extraction and augmentation for ultra-fine-grained visual categorization
-    authors: <strong>Zicheng Pan</strong>, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao
-    conference_short: DICTA
-    conference: Digital Image Computing Techniques and Applications <strong>(DICTA)</strong>, 2021.
-    pdf: https://ieeexplore.ieee.org/abstract/document/9647389
-    code: https://github.com/zichengpan/DICTA-Masked_Guided_ultra_FGVC
-    image: /assets/img/dicta_resized.png
+  # - title: Mask-guided feature extraction and augmentation for ultra-fine-grained visual categorization
+  #   authors: <strong>Zicheng Pan</strong>, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao
+  #   conference_short: DICTA
+  #   conference: Digital Image Computing Techniques and Applications <strong>(DICTA)</strong>, 2021.
+  #   pdf: https://ieeexplore.ieee.org/abstract/document/9647389
+  #   code: https://github.com/zichengpan/DICTA-Masked_Guided_ultra_FGVC
+  #   image: /assets/img/dicta_resized.png
     # notes: Spotlight
 
   - title: Extraction of dynamic frequency response characteristics and modelling of modern air conditioners
@@ -47,9 +47,9 @@ main:
     image: /assets/img/tsg.png
     # notes: Early Accept
 
-  - title: Continual Detection Transformer for Incremental Object Detection
-    authors: Xun Yu, <strong>Zicheng Pan</strong>, Yongsheng Gao
-    conference_short: ROBIO
-    conference: IEEE International Conference on Robotics and Biomimetics <strong>(ROBIO)</strong>, 2019.
-    pdf: https://ieeexplore.ieee.org/abstract/document/8961838
-    image: /assets/img/robio_resized.png
+  # - title: Continual Detection Transformer for Incremental Object Detection
+  #   authors: Xun Yu, <strong>Zicheng Pan</strong>, Yongsheng Gao
+  #   conference_short: ROBIO
+  #   conference: IEEE International Conference on Robotics and Biomimetics <strong>(ROBIO)</strong>, 2019.
+  #   pdf: https://ieeexplore.ieee.org/abstract/document/8961838
+  #   image: /assets/img/robio_resized.png

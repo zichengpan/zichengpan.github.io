@@ -12,23 +12,23 @@ I am a PhD candidate at the School of Engineering and Built Environment at Griff
 <p>My CV can be downloaded from <a href="/assets/files/Zicheng_Pan_cv.pdf" download>Here</a>.</p>
 
 
-<section class="education-section">
-    <div class="education-title">Education</div>
-    <div class="education-entry">
-        <strong>Griffith University</strong><span class="year"> 2022-Present</span>
-        <div class="education-details">
-            <p>Pursuing a Doctor of Philosophy degree.</p>
-            <p>Engaged in research at the ARC Research Hub, focusing on deep learning and computer vision. My work involves developing algorithms and models to enhance deep learning applications in real-world scenarios.</p>
-        </div>
+<!-- <section class="education-section"> -->
+<div class="education-title">Education</div>
+<div class="education-entry">
+    <strong>Griffith University</strong><span class="year"> 2022-Present</span>
+    <div class="education-details">
+        <p>Pursuing a Doctor of Philosophy degree.</p>
+        <p>Engaged in research at the ARC Research Hub, focusing on deep learning and computer vision. My work involves developing algorithms and models to enhance deep learning applications in real-world scenarios.</p>
     </div>
-    <div class="education-entry">
-        <strong>The University of Queensland</strong><span class="year"> 2017-2021</span>
-        <div class="education-details">
-            <p>Bachelor of Engineering (Hons) / Master of Engineering.</p>
-            <p>Completed the degree in the Electrical Engineering field with First Class Honors.</p>
-        </div>
+</div>
+<div class="education-entry">
+    <strong>The University of Queensland</strong><span class="year"> 2017-2021</span>
+    <div class="education-details">
+        <p>Bachelor of Engineering (Hons) / Master of Engineering.</p>
+        <p>Completed the degree in the Electrical Engineering field with First Class Honors.</p>
     </div>
-</section>
+</div>
+<!-- </section> -->
 
 
 

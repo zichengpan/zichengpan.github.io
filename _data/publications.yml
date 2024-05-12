@@ -22,7 +22,7 @@ main:
     pdf: https://ieeexplore.ieee.org/abstract/document/10418495
     image: /assets/img/tia_resized.png
 
-  - title: "Wakening Past Concepts without Past Data: Class-Incremental Learning from Online Placebos"
+  - title: "SSFE-Net: Self-Supervised Feature Enhancement for Ultra-Fine-Grained Few-Shot Class Incremental Learning"
     authors: <strong>Zicheng Pan</strong>, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao
     conference_short: WACV
     conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2023.
@@ -39,7 +39,7 @@ main:
   #   image: /assets/img/dicta_resized.png
     # notes: Spotlight
 
-  - title: Extraction of dynamic frequency response characteristics and modelling of modern air conditioners
+  - title: Extraction of Dynamic Frequency Response Characteristics and Modelling of Modern Air Conditioners
     authors: Feifei Bai, Ruifeng Yan, Tapan Kumar Saha, Yi Cui, <strong>Zicheng Pan</strong>
     conference_short: TSG
     conference: IEEE Transactions on Smart Grid, 2020.

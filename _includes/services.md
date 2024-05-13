@@ -35,5 +35,6 @@
 <ul style="margin:0 0 20px;">
 
   <li>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</li>
+  <li>Pattern Recognition (PR)</li>
 
 </ul>

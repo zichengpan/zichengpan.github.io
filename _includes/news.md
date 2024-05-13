@@ -3,7 +3,7 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
-<li><strong>[Feb. 2024]</strong> I serve as a reviewer of PR.</li>
+<li><strong>[May. 2024]</strong> I serve as a reviewer of PR.</li>
 <li><strong>[Apr. 2024]</strong> Our paper about few-shot class-incremental learning (FSCIL) is accepted to TNNLS.</li>
 <li><strong>[Feb. 2024]</strong> I serve as a reviewer of ACM MM 2024, ICME 2024 and TNNLS.</li>
 <li><strong>[Jan. 2024]</strong> Our paper about anomaly detection on power grid is accepted to TIA.</li>

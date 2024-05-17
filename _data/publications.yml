@@ -3,7 +3,7 @@ main:
   - title: "DyCR: A Dynamic Clustering and Recovering Network for Few-Shot Class-Incremental Learning"
     authors: <strong>Zicheng Pan</strong>, Xiaohan Yu, Miaohua Zhang, Weichuan Zhang, Yongsheng Gao
     conference_short: TNNLS
-    conference: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, Accepted.
+    conference: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, Early Access.
     image: /assets/img/tnnls_dycr.png
     pdf: https://ieeexplore.ieee.org/document/10531293
     code: https://github.com/zichengpan/DyCR

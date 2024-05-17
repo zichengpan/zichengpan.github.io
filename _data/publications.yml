@@ -5,6 +5,7 @@ main:
     conference_short: TNNLS
     conference: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, Accepted.
     image: /assets/img/tnnls_dycr.png
+    pdf: https://ieeexplore.ieee.org/document/10531293
     code: https://github.com/zichengpan/DyCR
 
 

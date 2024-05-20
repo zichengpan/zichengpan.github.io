@@ -16,7 +16,7 @@
 <li><strong>[Jun. 2023]</strong> Our ARC Research Hub has won the 2023 Global Innovation and Entrepreneurship Team of the Year (Rising Star) Award.</li>
 <li><strong>[Oct. 2022]</strong> Our paper about incremental learning on ultra-FGVC is accepted to WACV.</li>
 <!-- <li><strong>[Sep. 2021]</strong> Our paper about fine-grained classification is accepted to DICTA.</li> -->
-<li><strong>[Dec. 2020]</strong> Our paper about incremental learning on ultra-FGVC is accepted to TSG.</li>
+<li><strong>[Dec. 2020]</strong> Our paper about frequency response analysis of modern air conditioners is accepted to TSG.</li>
 
 </div>
 

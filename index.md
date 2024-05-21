@@ -31,6 +31,13 @@ I am a PhD candidate at the School of Engineering and Built Environment at Griff
 <!-- </section> -->
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JF7QJMG7MD"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-JF7QJMG7MD');
+</script>
 
 {% include_relative _includes/news.md %}
 

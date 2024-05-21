@@ -3,12 +3,12 @@
   <head>
     <title>{{ site.title }}'s Homepage</title>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JF7QJMG7MD"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.data.analytics.google_analytics }}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-JF7QJMG7MD');
+      gtag('config', '{{ site.data.analytics.google_analytics }}');
     </script>
 
     <meta charset="utf-8" />
@@ -64,15 +64,14 @@
    
 
   </head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JF7QJMG7MD"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-JF7QJMG7MD');
-  </script>
-  <body>
-    
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.data.analytics.google_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '{{ site.data.analytics.google_analytics }}');
+    </script>
+  
     <div class="topnav">
 
       <a href="{{ site.affiliation_link }}"><img width="190" src="{{ site.affiliation_logo }}"></a>

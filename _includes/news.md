@@ -9,8 +9,8 @@
 <li><strong>[Jan. 2024]</strong> Our paper about anomaly detection on power grid is accepted to TIA.</li>
 <li><strong>[Jan. 2024]</strong> Our paper about Lie algebra enabled ultra-FGVC is accepted to TNNLS.</li>
 
-<a href="javascript:toggle_vis('newsmore')">Show more</a>
-<div id="newsmore" style="display:none"> 
+<a href="javascript:toggleVisibility('newsmore')" id="toggleButton">Show more</a>
+<div id="newsmore" style="display:none">
 
 <li><strong>[Dec. 2023]</strong> I serve as a reviewer of CVPR 2024.</li>
 <li><strong>[Jun. 2023]</strong> Our ARC Research Hub has won the 2023 Global Innovation and Entrepreneurship Team of the Year (Rising Star) Award.</li>
@@ -21,3 +21,17 @@
 </div>
 
 </ul>
+
+<script>
+  function toggleVisibility(id) {
+    var element = document.getElementById(id);
+    var button = document.getElementById('toggleButton');
+    if (element.style.display === 'none') {
+      element.style.display = 'block';
+      button.innerText = 'Show less';
+    } else {
+      element.style.display = 'none';
+      button.innerText = 'Show more';
+    }
+  }
+</script>

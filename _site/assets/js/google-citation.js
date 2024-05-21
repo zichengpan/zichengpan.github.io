@@ -30,7 +30,7 @@
 (function(exports) {
 	exports.googleCitation = function (repo, callback) {
 		var xmlhttp = new XMLHttpRequest(),
-			url = ["http://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=Uf9GqRsAAAAJ"],
+			url = ["http://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=GsURDp0AAAAJ"],
 			useCallback = (typeof(callback) == "function");
 
 		//count the stars
@@ -44,7 +44,7 @@
             response_pub = response.publications
 
 			for (var i in response_pub) {
-                if (response_pub[i].title=="Meta-Transfer Learning for Few-Shot learning")
+                if (response_pub[i].title=="Ssfe-net: Self-supervised feature enhancement for ultra-fine-grained few-shot class incremental learning")
 				stars += parseInt(response_pub[i].citations);
 			}
 

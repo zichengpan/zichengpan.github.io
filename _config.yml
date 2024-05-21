@@ -26,7 +26,7 @@ email_link: "mailto:zicheng.pan@griffithuni.edu.au"
 
 # Images 
 avatar: ./assets/img/profile.jpg
-favicon: ./assets/img/favicon.png
+# favicon: ./assets/img/favicon.png
 
 # The following files will be removed from the generated website.
 exclude:

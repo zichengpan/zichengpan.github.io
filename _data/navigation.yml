@@ -1,3 +1,5 @@
+google_analytics: ""
+
 main:
 
   - title: "Contact"
@@ -21,4 +23,3 @@ main:
 
   - title: "Bio"
     url: ./#about-me
-    

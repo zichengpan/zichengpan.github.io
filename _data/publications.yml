@@ -1,5 +1,13 @@
 main:
 
+  - title: "Pseudo-Set Frequency Refinement Architecture for Fine-Grained Few-Shot Class-Incremental Learning"
+    authors: <strong><u>Zicheng Pan</u></strong>, Weichuan Zhang, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao
+    conference_short: PR
+    conference: Pattern Recognition (PR), 2024.
+    image: /assets/img/pfr_pr.png
+    # pdf: 
+    code: https://github.com/zichengpan/PFR
+
   - title: "DyCR: A Dynamic Clustering and Recovering Network for Few-Shot Class-Incremental Learning"
     authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Miaohua Zhang, Weichuan Zhang, Yongsheng Gao
     conference_short: TNNLS
@@ -48,7 +56,7 @@ main:
     image: /assets/img/tsg.png
     # notes: Early Accept
 
-  # - title: Continual Detection Transformer for Incremental Object Detection
+  # - title: A graph-based image clustering method using mutual information maximization
   #   authors: Xun Yu, <strong>Zicheng Pan</strong>, Yongsheng Gao
   #   conference_short: ROBIO
   #   conference: IEEE International Conference on Robotics and Biomimetics <strong>(ROBIO)</strong>, 2019.

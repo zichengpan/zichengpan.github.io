@@ -5,7 +5,7 @@ main:
     conference_short: PR
     conference: Pattern Recognition (PR), 2024.
     image: /assets/img/pfr_pr.png
-    # pdf: 
+    pdf: https://www.sciencedirect.com/science/article/pii/S0031320324004370
     code: https://github.com/zichengpan/PFR
 
   - title: "DyCR: A Dynamic Clustering and Recovering Network for Few-Shot Class-Incremental Learning"

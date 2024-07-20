@@ -24,12 +24,19 @@ main:
     pdf: https://ieeexplore.ieee.org/abstract/document/10426795
     image: /assets/img/tnnls_deepLA.png
 
-  - title: Condition Monitoring of Distribution Power Network Assets Using PMU Measurements
-    authors: Feifei Bai, Yi Cui, Ruifeng Yan, Tapan Kumar Saha, <strong><u>Zicheng Pan</u></strong>, Ge Zhang, Matthew Zillmann, David Dart
-    conference_short: TIA
-    conference: IEEE Transactions on Industry Applications <strong>(TIA)</strong>, 2024.
-    pdf: https://ieeexplore.ieee.org/abstract/document/10418495
-    image: /assets/img/tia_resized.png
+  # - title: Condition Monitoring of Distribution Power Network Assets Using PMU Measurements
+  #   authors: Feifei Bai, Yi Cui, Ruifeng Yan, Tapan Kumar Saha, <strong><u>Zicheng Pan</u></strong>, Ge Zhang, Matthew Zillmann, David Dart
+  #   conference_short: TIA
+  #   conference: IEEE Transactions on Industry Applications <strong>(TIA)</strong>, 2024.
+  #   pdf: https://ieeexplore.ieee.org/abstract/document/10418495
+  #   image: /assets/img/tia_resized.png
+
+  - title: "EIANet: A Novel Domain Adaptation Approach to Maximize Class Distinction with Neural Collapse Principles"
+    authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Yongsheng Gao
+    conference_short: BMVC
+    conference: British Machine Vision Conference <strong>(BMVC)</strong>, 2024.
+    # pdf: 
+    image: /assets/img/EIANet.png
 
   - title: "SSFE-Net: Self-Supervised Feature Enhancement for Ultra-Fine-Grained Few-Shot Class Incremental Learning"
     authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao

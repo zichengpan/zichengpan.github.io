@@ -19,14 +19,14 @@ layout: homepage
 <div class="education-entry">
     <strong>Griffith University</strong><span class="year"> 2022-Present</span>
     <div class="education-details">
-        <p>Pursuing a Doctor of Philosophy degree.</p>
+        <p>Doctor of Philosophy</p>
         <p>Engaged in research at the ARC Research Hub under the supervision of Prof. Yongsheng Gao and Dr. Xiaohan Yu. My work involves developing deep learning algorithms and models to advance computer vision applications in real-world scenarios.</p>
     </div>
 </div>
 <div class="education-entry">
     <strong>The University of Queensland</strong><span class="year"> 2017-2021</span>
     <div class="education-details">
-        <p>Bachelor of Engineering (Hons) / Master of Engineering.</p>
+        <p>Bachelor of Engineering (Hons) / Master of Engineering</p>
         <p>Completed the degree in the Electrical Engineering field with First Class Honors.</p>
     </div>
 </div>

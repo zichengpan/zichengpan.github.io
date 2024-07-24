@@ -35,8 +35,10 @@ main:
     authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Yongsheng Gao
     conference_short: BMVC
     conference: British Machine Vision Conference <strong>(BMVC)</strong>, 2024.
-    # pdf: 
+    pdf: https://arxiv.org/abs/2407.16189
     image: /assets/img/EIANet.png
+    code: https://github.com/zichengpan/EIANet
+
 
   - title: "SSFE-Net: Self-Supervised Feature Enhancement for Ultra-Fine-Grained Few-Shot Class Incremental Learning"
     authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao

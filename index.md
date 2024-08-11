@@ -17,10 +17,10 @@ layout: homepage
 <!-- <section class="education-section"> -->
 <div class="education-title">Education</div>
 <div class="education-entry">
-    <strong>Griffith University</strong><span class="year"> 2022-Present</span>
+    <strong>Griffith University</strong><span class="year"> 2022-2024</span>
     <div class="education-details">
         <p>Doctor of Philosophy</p>
-        <p>Engaged in research at the ARC Research Hub under the supervision of Prof. Yongsheng Gao and Dr. Xiaohan Yu. My work involves developing deep learning algorithms and models to advance computer vision applications in real-world scenarios.</p>
+        <p>Engaged in research at the ARC Research Hub and Institute for Integrated and Intelligent Systems under the supervision of Prof. Yongsheng Gao and Dr. Xiaohan Yu. My work involves developing deep learning algorithms and models to advance computer vision applications in real-world scenarios.</p>
     </div>
 </div>
 <div class="education-entry">

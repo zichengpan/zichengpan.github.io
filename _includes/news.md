@@ -3,6 +3,7 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
+<li><strong>[Aug. 2024]</strong> Our paper about SFDA is accepted to PR.</li>
 <li><strong>[Aug. 2024]</strong> I serve as a reviewer of ICLR 2025 and ACM MM Asia 2024.</li>
 <li><strong>[Jul. 2024]</strong> Our paper about source-free domain adaptation (SFDA) is accepted to BMVC 2024.</li>
 <li><strong>[Jun. 2024]</strong> Our paper about fine-grained FSCIL is accepted to PR.</li>

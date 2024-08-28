@@ -1,12 +1,10 @@
 main:
 
-  - title: "Pseudo-Set Frequency Refinement Architecture for Fine-Grained Few-Shot Class-Incremental Learning"
-    authors: <strong><u>Zicheng Pan</u></strong>, Weichuan Zhang, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao
+  - title: "Overcoming Learning Bias via Prototypical Feature Compensation for Source-Free Domain Adaptation"
+    authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Weichuan Zhang, Yongsheng Gao
     conference_short: PR
-    conference: Pattern Recognition (PR), 2024.
-    image: /assets/img/pfr_pr.png
-    pdf: https://www.sciencedirect.com/science/article/pii/S0031320324004370
-    code: https://github.com/zichengpan/PFR
+    conference: Pattern Recognition <strong>(PR)</strong>, 2024.
+    image: /assets/img/pfc_pr.png
 
   - title: "DyCR: A Dynamic Clustering and Recovering Network for Few-Shot Class-Incremental Learning"
     authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Miaohua Zhang, Weichuan Zhang, Yongsheng Gao
@@ -16,6 +14,13 @@ main:
     pdf: https://ieeexplore.ieee.org/document/10531293
     code: https://github.com/zichengpan/DyCR
 
+  - title: "Pseudo-Set Frequency Refinement Architecture for Fine-Grained Few-Shot Class-Incremental Learning"
+    authors: <strong><u>Zicheng Pan</u></strong>, Weichuan Zhang, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao
+    conference_short: PR
+    conference: Pattern Recognition <strong>(PR)</strong>, 2024.
+    image: /assets/img/pfr_pr.png
+    pdf: https://www.sciencedirect.com/science/article/pii/S0031320324004370
+    code: https://github.com/zichengpan/PFR
 
   - title: Self-Supervised Lie Algebra Representation Learning via Optimal Canonical Metric
     authors: Xiaohan Yu*, <strong><u>Zicheng Pan*</u></strong>, Yang Zhao, Yongsheng Gao <br> (* Equal contribution)

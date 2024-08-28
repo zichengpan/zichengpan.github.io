@@ -15,7 +15,7 @@
   <li><a href="https://bmvc2024.org/"><autocolor>The British Machine Vision Conference (BMVC) 2024</autocolor></a></li>
 </ul> -->
 
-<!-- <h4 style="margin:0 10px 0;">Senior Program Committee</h4>
+<!-- <h4 style="margin:0 10px 0;">Program Committee</h4>
 
 <ul style="margin:0 0 5px;">
   <li><a href="https://ijcai-21.org/"><autocolor>International Joint Conference on Artificial Intelligence (IJCAI) 2021</autocolor></a></li>

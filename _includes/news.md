@@ -3,6 +3,8 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
+<li><strong>[Sep. 2024]</strong> I serve as a reviewer of Neural Networks.</li>
+<li><strong>[Sep. 2024]</strong> Our ARC Research Hub has won the 2024 Asia-Pacific Impactful Research Team of the Year Award.</li>
 <li><strong>[Aug. 2024]</strong> Our paper about SFDA is accepted to PR.</li>
 <li><strong>[Aug. 2024]</strong> I serve as a reviewer of ICLR 2025 and ACM MM Asia 2024.</li>
 <li><strong>[Jul. 2024]</strong> Our paper about source-free domain adaptation (SFDA) is accepted to BMVC 2024.</li>

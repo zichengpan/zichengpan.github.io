@@ -5,6 +5,8 @@ main:
     conference_short: PR
     conference: Pattern Recognition <strong>(PR)</strong>, 2024.
     image: /assets/img/pfc_pr.png
+    pdf: https://www.sciencedirect.com/science/article/pii/S0031320324007763
+    code: https://github.com/zichengpan/PFC
 
   - title: "DyCR: A Dynamic Clustering and Recovering Network for Few-Shot Class-Incremental Learning"
     authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Miaohua Zhang, Weichuan Zhang, Yongsheng Gao

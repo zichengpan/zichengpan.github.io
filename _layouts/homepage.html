@@ -108,11 +108,11 @@
         <h1>{{ site.title }}</h1>
 
         {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
+        <a href="{{ site.affiliation_link }}" rel="noopener"><position style="font-size:1.10rem;"><autocolor>{{ site.position }}</autocolor></position></a>
         <br>
         {% endif %}
         {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        {{ site.affiliation }}
         <br>
         {% endif %}
         {% if site.email %}
@@ -170,6 +170,7 @@
           <i class="fab fa-x-twitter"></i>
         </a>
         {% endif %}
+        
         </div>
         {% endif %}
         <br>

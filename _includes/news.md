@@ -3,7 +3,7 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
-<li><strong>[Nov. 2024]</strong> I serve as a reviewer of CVPR 2025.</li>
+<li><strong>[Nov. 2024]</strong> I serve as a reviewer of CVPR 2025 and Neurocomputing.</li>
 <li><strong>[Oct. 2024]</strong> I joined Institute for Integrated and Intelligent Systems (IIIS) at Griffith University as a Research Fellow.</li>
 <li><strong>[Oct. 2024]</strong> I serve as a program committee member of AAAI 2025 Undergraduate Consortium.</li>
 <li><strong>[Sep. 2024]</strong> I serve as a reviewer of Neural Networks and AISTATS 2025.</li>

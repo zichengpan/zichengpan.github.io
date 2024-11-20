@@ -48,5 +48,6 @@
   <li>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</li>
   <li>Pattern Recognition (PR)</li>
   <li>Neural Networks</li>
+  <li>Neurocomputing</li>
 
 </ul>

@@ -28,6 +28,14 @@
 
 </ul>
 
+<h4 style="margin:0 10px 0;">Area Chair</h4>
+
+<ul style="margin:0 0 5px;">
+  <li>International Joint Conference on Neural Networks (IJCNN), 2025</li>
+
+</ul>
+
+
 <h4 style="margin:0 10px 0;">Conference Reviewers</h4>
 
 <ul style="margin:0 0 5px;">

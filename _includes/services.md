@@ -55,6 +55,7 @@
 <ul style="margin:0 0 20px;">
 
   <li>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</li>
+  <li>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</li>
   <li>Pattern Recognition (PR)</li>
   <li>Neural Networks</li>
   <li>Neurocomputing</li>

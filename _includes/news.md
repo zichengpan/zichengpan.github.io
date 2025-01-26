@@ -3,7 +3,7 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
-<li><strong>[Jan. 2025]</strong> I have been invited to serve as program committee member for IJCAI 2025.</li>
+<li><strong>[Jan. 2025]</strong> I have been invited to serve as program committee member for IJCAI 2025 and reviewer of TCSVT.</li>
 <li><strong>[Dec. 2024]</strong> I have been invited to serve as area chair for IJCNN 2025 and reviewer of ICML 2025.</li>
 <li><strong>[Nov. 2024]</strong> I have been invited to serve as reviewer of CVPR 2025 and Neurocomputing.</li>
 <li><strong>[Oct. 2024]</strong> I joined School of Engineering and Built Environment at Griffith University as <a href="https://experts.griffith.edu.au/24217-zicheng-pan">Research Fellow</a>.</li>

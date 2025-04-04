@@ -7,7 +7,7 @@ layout: homepage
 <h2 style="margin: 60px 0px 10px;">About Me</h2>
 
 <div style="margin-bottom: 20px;">
-    I am a Research Fellow at Institute for Integrated and Intelligent Systems (IIIS) at Griffith University, Australia. I completed a combined B.Eng (Hons) and M.Eng degree in Electrical Engineering at the University of Queensland in 2021. Currently pursuing a PhD degree at Griffith University, my research focuses on deep learning and computer vision, with particular interests in incremental learning, domain adaptation, fine-grained classification, and vision-language models.
+    I am a Research Fellow at Griffith University, Australia. I completed a combined B.Eng (Hons) and M.Eng degree in Electrical Engineering at the University of Queensland in 2021. Currently working as a research fellow and pursuing a PhD degree at Griffith University, my research focuses on deep learning and computer vision, with particular interests in incremental learning, domain adaptation, fine-grained classification, and vision-language models.
 </div>
 
 <p style="margin-bottom: 40px;">For more information, please visit my <a href="https://experts.griffith.edu.au/24217-zicheng-pan">academic page</a>. We are currently seeking highly motivated Ph.D. students to join our research group. If interested, please contact me with your CV. Scholarships may be available for qualified candidates.</p>
@@ -17,7 +17,7 @@ layout: homepage
 <!-- <section class="education-section"> -->
 <div class="education-title">Education</div>
 <div class="education-entry">
-    <strong>Griffith University</strong><span class="year"> 2022-2024</span>
+    <strong>Griffith University</strong><span class="year"> 2022-2025</span>
     <div class="education-details">
         <p>Doctor of Philosophy</p>
         <p>Engaged in research at the ARC Research Hub and Institute for Integrated and Intelligent Systems (IIIS) under the supervision of Prof. Yongsheng Gao and Dr. Xiaohan Yu. My work involves developing deep learning algorithms and models to advance computer vision applications in real-world agriculture scenarios.</p>

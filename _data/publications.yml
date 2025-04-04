@@ -1,5 +1,11 @@
 main:
 
+  - title: "Session-Guided Attention in Continuous Learning with Few Samples"
+    authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Yongsheng Gao
+    conference_short: TIP
+    conference: IEEE Transactions on Image Processing <strong>(TIP)</strong>, 2025.
+    image: /assets/img/tip_sega.png
+
   - title: "Overcoming Learning Bias via Prototypical Feature Compensation for Source-Free Domain Adaptation"
     authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Weichuan Zhang, Yongsheng Gao
     conference_short: PR
@@ -27,7 +33,7 @@ main:
   - title: Self-Supervised Lie Algebra Representation Learning via Optimal Canonical Metric
     authors: Xiaohan Yu*, <strong><u>Zicheng Pan*</u></strong>, Yang Zhao, Yongsheng Gao <br> (* Equal contribution)
     conference_short: TNNLS
-    conference: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, Early Access.
+    conference: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, 2025.
     pdf: https://ieeexplore.ieee.org/abstract/document/10426795
     image: /assets/img/tnnls_deepLA.png
 

@@ -3,8 +3,9 @@ main:
   - title: "Session-Guided Attention in Continuous Learning with Few Samples"
     authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Yongsheng Gao
     conference_short: TIP
-    conference: IEEE Transactions on Image Processing <strong>(TIP)</strong>, Accepted.
+    conference: IEEE Transactions on Image Processing <strong>(TIP)</strong>, Early Access.
     image: /assets/img/tip_sega.png
+    pdf: https://ieeexplore.ieee.org/document/10965908
     code: https://github.com/zichengpan/SEGA
 
   - title: "Overcoming Learning Bias via Prototypical Feature Compensation for Source-Free Domain Adaptation"

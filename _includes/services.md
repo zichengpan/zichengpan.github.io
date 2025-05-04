@@ -26,6 +26,7 @@
 <ul style="margin:0 0 5px;">
   <li>International Joint Conference on Artificial Intelligence (IJCAI), 2025</li>
   <li>AAAI Conference on Artificial Intelligence (AAAI) Undergraduate Consortium, 2025</li>
+  <li>European Conference on Artificial Intelligence (ECAI), 2025</li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Area Chair</h4>

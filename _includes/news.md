@@ -3,7 +3,7 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
-<li><strong>[Jan. 2025]</strong> I have been invited to serve as program committee member for ECAI 2025.</li>
+<li><strong>[May. 2025]</strong> I have been invited to serve as program committee member for ECAI 2025.</li>
 <li><strong>[Apr. 2025]</strong> Our paper about FSCIL is accepted to TIP.</li>
 <li><strong>[Mar. 2025]</strong> I have been invited to serve as reviewer of ICCV 2025, NeurIPS 2025, and ACM MM 2025.</li>
 <li><strong>[Jan. 2025]</strong> I have been invited to serve as program committee member for IJCAI 2025 and reviewer of TCSVT.</li>

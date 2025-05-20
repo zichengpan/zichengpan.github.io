@@ -7,7 +7,7 @@ layout: homepage
 <h2 style="margin: 60px 0px 10px;">About Me</h2>
 
 <div style="margin-bottom: 20px;">
-    I am a Research Fellow at Griffith University, Australia. I completed a combined B.Eng (Hons) and M.Eng degree in Electrical Engineering at the University of Queensland in 2021. Currently working as a research fellow and pursuing a PhD degree at Griffith University, my research focuses on deep learning and computer vision, with particular interests in incremental learning, domain adaptation, fine-grained classification, and vision-language models.
+    I am a Research Fellow at Griffith University, Australia. I completed my PhD in Artificial Intelligence at Griffith University in May 2025, where my research focused on deep learning and computer vision. My particular interests lie in incremental learning, domain adaptation, fine-grained classification, and vision-language models. Prior to my doctoral studies, I earned a combined Bachelor of Engineering (Honours) and Master of Engineering in Electrical Engineering from the University of Queensland in 2021.
 </div>
 
 <p style="margin-bottom: 40px;">For more information, please visit my <a href="https://experts.griffith.edu.au/24217-zicheng-pan">academic page</a>. We are currently seeking highly motivated Ph.D. students to join our research group. If interested, please contact me with your CV. Scholarships may be available for qualified candidates.</p>

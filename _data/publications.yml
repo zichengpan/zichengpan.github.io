@@ -3,10 +3,18 @@ main:
   - title: "Session-Guided Attention in Continuous Learning with Few Samples"
     authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Yongsheng Gao
     conference_short: TIP
-    conference: IEEE Transactions on Image Processing <strong>(TIP)</strong>, Early Access.
+    conference: IEEE Transactions on Image Processing <strong>(TIP)</strong>, 2025.
     image: /assets/img/tip_sega.png
     pdf: https://ieeexplore.ieee.org/document/10965908
     code: https://github.com/zichengpan/SEGA
+
+  - title: "Contrastive Lie Algebra Learning for Ultra-Fine-Grained Visual Categorization"
+    authors: Xiaohan Yu*, <strong><u>Zicheng Pan*</u></strong>, Yang Zhao, Qin Zhang, Yongsheng Gao (* Equal contribution)
+    conference_short: ACMMM
+    conference: ACM Multimedia <strong>(ACMMM)</strong>, Accepted.
+    image: /assets/img/CLA-Net.png
+    # pdf: 
+    code: https://github.com/zichengpan/CLA-NET
 
   - title: "Overcoming Learning Bias via Prototypical Feature Compensation for Source-Free Domain Adaptation"
     authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Weichuan Zhang, Yongsheng Gao
@@ -32,7 +40,7 @@ main:
     pdf: https://www.sciencedirect.com/science/article/pii/S0031320324004370
     code: https://github.com/zichengpan/PFR
 
-  - title: Self-Supervised Lie Algebra Representation Learning via Optimal Canonical Metric
+  - title: "Self-Supervised Lie Algebra Representation Learning via Optimal Canonical Metric"
     authors: Xiaohan Yu*, <strong><u>Zicheng Pan*</u></strong>, Yang Zhao, Yongsheng Gao <br> (* Equal contribution)
     conference_short: TNNLS
     conference: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, 2024.

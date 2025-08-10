@@ -3,6 +3,9 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
+    <li><strong>[Aug. 2025]</strong> Our paper about fine-grained learning is accepted to PR.</li>
+    <li><strong>[Jul. 2025]</strong> Our paper about FSCIL is accepted to ICONIP 2025.</li>
+    <li><strong>[Jul. 2025]</strong> I have been invited to serve as program committee member for AAAI 2025.</li>
     <li><strong>[Jul. 2025]</strong> Our paper about ultra-FGVC is accepted to ACM MM 2025.</li>
     <li><strong>[May. 2025]</strong> I have been invited to serve as program committee member for ECAI 2025.</li>
     <li><strong>[Apr. 2025]</strong> Our paper about FSCIL is accepted to TIP.</li>

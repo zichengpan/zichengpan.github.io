@@ -25,7 +25,7 @@
 
 <ul style="margin:0 0 5px;">
   <li>International Joint Conference on Artificial Intelligence (IJCAI), 2025</li>
-  <li>AAAI Conference on Artificial Intelligence (AAAI) Undergraduate Consortium, 2025</li>
+  <li>AAAI Conference on Artificial Intelligence (AAAI), 2025, 2026</li>
   <li>European Conference on Artificial Intelligence (ECAI), 2025</li>
 </ul>
 

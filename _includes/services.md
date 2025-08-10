@@ -24,8 +24,8 @@
 <h4 style="margin:0 10px 0;">Program Committee Member</h4>
 
 <ul style="margin:0 0 5px;">
-  <li>International Joint Conference on Artificial Intelligence (IJCAI), 2025</li>
   <li>AAAI Conference on Artificial Intelligence (AAAI), 2025, 2026</li>
+  <li>International Joint Conference on Artificial Intelligence (IJCAI), 2025</li>
   <li>European Conference on Artificial Intelligence (ECAI), 2025</li>
 </ul>
 

@@ -1,20 +1,21 @@
 # Basic Information 
 title: Zicheng Pan
-# position: PhD Candidate
 position: Research Fellow
 affiliation: Griffith University
 affiliation_link: https://experts.griffith.edu.au/24217-zicheng-pan
 # affiliation_logo: ./assets/img/Griffith University New.png
-# email: z.pan [at] griffith.edu.au
-# email2: zicheng.pan [at] uqconnect.edu.au
+# email: # Add your email here
 
 # Search Engine Optimization (SEO)
 keywords: zicheng pan, pan zicheng, zichengpan, panzicheng
-canonical: https://zichengpan.github.io/
+canonical: https://zichengpan.github.io
 description: Zicheng Pan is a Research Fellow at Griffith University. His research lies in domain adaptation, incremental learning, and visual-language models.
 
+# The option is used to enable the university template.
+enable_hopkins_logo: false
+
 # The option is used to show the last update time.
-enable_last_update: true
+enable_last_update: false
 
 # Links
 link_type: icon #text/icon
@@ -25,8 +26,15 @@ linkedin: https://www.linkedin.com/in/zicheng-pan-001/
 email_link: "mailto:z.pan@griffith.edu.au"
 
 # Images 
-avatar: ./assets/img/profile.jpg
-# favicon: ./assets/img/favicon.png
+avatar: /assets/img/profile.jpg
+
+# Footnotes
+# footnote: # Add custom footnote or remove this line
+# footnote_link: # Add footnote link or remove this line
+
+# Analytics
+# Add your own analytics services if needed
+# clustrmaps_id: # Add your ClustrMaps ID here if you want analytics
 
 # The following files will be removed from the generated website.
 exclude:

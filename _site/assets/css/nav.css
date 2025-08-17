@@ -1,15 +1,22 @@
-/* Add a black background color to the top navigation */
+/* Add a grey background color to the top navigation */
 .topnav {
-    background-color: hsla(270, 1%, 32%, 0.534);
+    background-color: #8a8a8a;
     overflow: hidden;
-	position:fixed;
-	z-index:999;
+	  position:fixed;
+	  z-index:999;
     width:100%;
   }
 
+  /* Inner container to align with content width */
+  .topnav-inner {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+  }
 
   .topnav #myLinks {
     display: inline;
+    float: right;
   }
 
 .topnav a.icon {
@@ -17,9 +24,9 @@
 }
 
   .topnav img {
-    margin-bottom:-16.5pt;
-    margin-top:-12.5pt;
-    margin-left:30%;
+    margin-bottom:0pt;
+    margin-top:10pt;
+    float: left;
   }
   
   /* Style the links inside the navigation bar */
@@ -38,81 +45,21 @@
     color: black;
   }
   
-  /* Add a color to the active/current link */
+  /* Remove right margin since we're now using container alignment */
   .topnav a.right {
-    margin-right:30%;
+    margin-right: 0;
   }
 
-  @media print, screen and (max-width: 1000px) { 
-
-    .topnav img {
-        margin-left:3%;
-      }
-
-    .topnav a.right {
-        margin-right:3%;
-      }
+  @media print, screen and (max-width: 960px) { 
+    .topnav-inner {
+        width: auto;
+        margin: 0;
+        padding: 0 20px;
+    }
 
     .topnav a.normal {
         padding: 10px 5px;
     }
-
-   }
-
-   @media print, screen and (max-width: 1200px) and (min-width: 1001px) { 
-
-    .topnav img {
-        margin-left:6%;
-      }
-    .topnav a.right {
-        margin-right:6%;
-      }
-
-   }
-
-   @media print, screen and (max-width: 1400px) and (min-width: 1201px) { 
-
-    .topnav img {
-        margin-left:12%;
-      }
-    .topnav a.right {
-        margin-right:12%;
-      }
-
-      }
-
-
-   @media print, screen and (max-width: 1600px) and (min-width: 1401px) { 
-
-    .topnav img {
-        margin-left:16%;
-      }
-    .topnav a.right {
-        margin-right:16%;
-      }
-
-   }
-
-   @media print, screen and (max-width: 1800px) and (min-width: 1601px) { 
-
-    .topnav img {
-        margin-left:19%;
-      }
-    .topnav a.right {
-        margin-right:19%;
-      }
-
-   }
-
-   @media print, screen and (max-width: 2000px) and (min-width: 1801px) { 
-
-    .topnav img {
-        margin-left:22%;
-      }
-    .topnav a.right {
-        margin-right:22%;
-      }
-
    }
 
   
@@ -123,6 +70,7 @@
    }
 
    @media print, screen and (max-width: 960px) { 
+
     .topnav #myLinks {
         display: none;
       }

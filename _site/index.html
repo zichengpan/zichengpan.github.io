@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>Zicheng Pan's Homepage</title>
+    <title>Zicheng Pan | Griffith University</title>
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JF7QJMG7MD"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-JF7QJMG7MD');
-  </script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JF7QJMG7MD"></script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+     gtag('config', 'G-JF7QJMG7MD');
+    </script>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -18,82 +19,99 @@
 
     <meta property="og:type" content="website">
     <meta property="og:title" content="Zicheng Pan | Griffith University">
-    <meta property="og:url" content="https://zichengpan.github.io/">
+    <meta property="og:url" content="https://zichengpan.github.io">
     <meta property="og:site_name" content="Zicheng Pan | Griffith University">
     <meta property="og:description" content="Zicheng Pan is a Research Fellow at Griffith University. His research lies in domain adaptation, incremental learning, and visual-language models.">
     <meta property="og:locale" content="default">
-    <meta property="og:image" content="./assets/img/profile.jpg">
+    <meta property="og:image" content="/assets/img/profile.jpg">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Zicheng Pan | Griffith University">
     <meta name="twitter:description" content="Zicheng Pan is a Research Fellow at Griffith University. His research lies in domain adaptation, incremental learning, and visual-language models.">
-    <meta name="twitter:image" content="./assets/img/profile.jpg">
+    <meta name="twitter:image" content="/assets/img/profile.jpg">
 
     <link rel="canonical" href="https://zichengpan.github.io/"/>
-    <link rel="icon" media="(prefers-color-scheme:dark)" href="" type="image/png" />
-    <link rel="icon" media="(prefers-color-scheme:light)" href="" type="image/png" />
+    <link rel="icon" href="/assets/img/favicon.ico">
+    <meta name="theme-color" content="#ffffff">
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/pub.css">
-    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/pub.css">
+    <link rel="stylesheet" href="/assets/css/nav.css">
+
     
-    <script src="./assets/js/github-stars.js"></script>
-    <script type="text/javascript" src="./assets/js/jquery.js"></script>
-    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
-    
+    <script src="/assets/js/github-stars.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.js"></script>
+    <script src="/assets/js/favicon-switcher.js" type="application/javascript"></script>
+
     <script type="text/javascript">
-      function toggle_vis(id) {
-          var e = document.getElementById(id);
-          if (e.style.display == 'none')
-              e.style.display = 'inline';
-          else
-              e.style.display = 'none';
+      function toggleVis(link) {
+        var div = document.getElementById('newsmore');
+        if (div.style.display === 'none') {
+          div.style.display = 'block';
+          link.textContent = 'Show less';
+        } else {
+          div.style.display = 'none';
+          link.textContent = 'Show more';
+        }
       }
-   </script>
+    </script>
 
    <script>
       function myFunction() {
       var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
+      if (x.style.display === "inline") {
         x.style.display = "none";
       } else {
-        x.style.display = "block";
+        x.style.display = "inline";
+        
       }
       }
+
+      function reverseLinks() {
+    var container = document.getElementById("myLinks");
+    var links = Array.from(container.getElementsByTagName('a'));
+    container.innerHTML = '';
+    for (var i = links.length - 1; i >= 0; i--) {
+      container.appendChild(links[i]);
+    }
+  }
    </script>
+   
    
 
   </head>
-    <div class="topnav">
-
-      <a href="https://experts.griffith.edu.au/24217-zicheng-pan"><img width="190" src=""></a>
-
-      <div id="myLinks">
-      
-  
-    <a class="normal right" href="./#contact">Contact</a>
+  <body>
     
+    <div class="topnav">
+      <div class="topnav-inner">
+        
+
+        <div id="myLinks">
+        
+  
+    <a class="normal" href="./services/">Services</a>
+  
 
   
-    <a class="normal" href="./#publications">Publications</a>
+    <a class="normal" href="./publications/">Publications</a>
   
 
   
-    <a class="normal" href="./#about-me">Bio</a>
+    <a class="normal" href="././">Home</a>
   
 
 
 
+        </div>
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction();reverseLinks()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
-
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-      
     </div>
     
 
-    <script src="./assets/js/vanilla-back-to-top.min.js"></script>
+    <script src="/assets/js/vanilla-back-to-top.min.js"></script>
     <script>addBackToTop({
         backgroundColor: '#fff',
         innerHTML: 'Back to Top',
@@ -116,17 +134,17 @@
       <header>
         
         
-        <a class="image avatar"><img src="./assets/img/profile.jpg" alt="avatar" /></a>
+        <a class="image avatar"><img src="/assets/img/profile.jpg" alt="avatar" /></a>
         
 
         <h1>Zicheng Pan</h1>
 
         
-        <a href="https://experts.griffith.edu.au/24217-zicheng-pan" rel="noopener"><position style="font-size:1.10rem;"><autocolor>Research Fellow</autocolor></position></a>
+        <position style="font-size:1.10rem;">Research Fellow</position>
         <br>
         
         
-        Griffith University
+        <a href="https://experts.griffith.edu.au/24217-zicheng-pan" rel="noopener"><autocolor>Griffith University</autocolor></a>
         <br>
         
         
@@ -154,18 +172,11 @@
         
 
         
-        <a style="margin: 0 5px 0 0" href="mailto:z.pan@griffith.edu.au" target="_blank" title="Email">
-          <i class="fa fa-envelope" style="font-size:1.3rem;"></i>
-        </a>
-        
-
-        
         <a style="margin: 0 5px 0 0" href="https://www.linkedin.com/in/zicheng-pan-001/">
           <i class="fab fa-linkedin"></i>
         </a>
         
 
-        
         
         </div>
         
@@ -176,37 +187,31 @@
 
       <h1 id="about-me"></h1>
 
-<h2 style="margin: 60px 0px 10px;">About Me</h2>
+<h2 style="margin: 60px 0px 10px;">About</h2>
 
-<div style="margin-bottom: 20px;">
-    I am a Research Fellow at Griffith University, Australia. I completed my PhD in Artificial Intelligence at Griffith University in May 2025, where my research focused on deep learning and computer vision. My particular interests lie in incremental learning, domain adaptation, fine-grained classification, and vision-language models. Prior to my doctoral studies, I earned a combined Bachelor of Engineering (Honours) and Master of Engineering in Electrical Engineering from the University of Queensland in 2021.
+<p>I am a Research Fellow in the School of Engineering and Built Environment at Griffith University, Australia. I completed my PhD at Griffith University in 2025, where my research focused on deep learning and computer vision. Prior to my doctoral studies, I earned a combined Bachelor of Engineering (Honours) and Master of Engineering in Electrical Engineering from the University of Queensland in 2021.
+I am recently working on these areas:</p>
+<ul>
+  <li><strong>Incremental Learning</strong></li>
+  <li><strong>Domain Adaptation</strong></li>
+  <li><strong>Fine-grained Classification</strong></li>
+  <li><strong>Vision-Language Models</strong></li>
+  <li><strong>Large-Language Models</strong></li>
+</ul>
+
+<div style="background-color: #e0e0e0; border: 1px solid #ccc; border-radius: 5px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<p style="color: #d32f2f; font-weight: bold; margin: 0; line-height: 1.6;">
+🎓 Multiple PhD positions available in Computer Vision and Machine Learning (Feb/Jul 2026 intake). Interested candidates are encouraged to contact me with their CV and research interests.
+<!-- Details can be found <a href="./projects/" style="color: #d32f2f; text-decoration: underline;">here</a>-->
+</p>
 </div>
-
-<p style="margin-bottom: 40px;">For more information, please visit my <a href="https://experts.griffith.edu.au/24217-zicheng-pan">academic page</a>. We are currently seeking highly motivated Ph.D. students to join our research group. If interested, please contact me with your CV. Scholarships may be available for qualified candidates.</p>
-
-<!-- <section class="education-section"> -->
-<div class="education-title">Education</div>
-<div class="education-entry">
-    <strong>Griffith University</strong><span class="year"> 2022-2025</span>
-    <div class="education-details">
-        <p>Doctor of Philosophy</p>
-        <p>Engaged in research at the ARC Research Hub for Driving Farming Productivity and Disease Prevention under the supervision of Prof. Yongsheng Gao and Dr. Xiaohan Yu. My work involves developing deep learning algorithms and models to advance computer vision applications in real-world agriculture scenarios.</p>
-    </div>
-</div>
-<div class="education-entry">
-    <strong>The University of Queensland</strong><span class="year"> 2017-2021</span>
-    <div class="education-details">
-        <p>Bachelor of Engineering (Hons) / Master of Engineering</p>
-        <p>Completed the degree in the Electrical Engineering field with First Class Honors.</p>
-    </div>
-</div>
-<!-- </section> -->
-
-<h1 id="news"></h1>
 
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
+    <li><strong>[Aug. 2025]</strong> Our paper about fine-grained learning is accepted to PR.</li>
+    <li><strong>[Jul. 2025]</strong> Our paper about FSCIL is accepted to ICONIP 2025.</li>
+    <li><strong>[Jul. 2025]</strong> I have been invited to serve as program committee member for AAAI 2026.</li>
     <li><strong>[Jul. 2025]</strong> Our paper about ultra-FGVC is accepted to ACM MM 2025.</li>
     <li><strong>[May. 2025]</strong> I have been invited to serve as program committee member for ECAI 2025.</li>
     <li><strong>[Apr. 2025]</strong> Our paper about FSCIL is accepted to TIP.</li>
@@ -222,413 +227,37 @@
     <li><strong>[Aug. 2024]</strong> I have been invited to serve as reviewer of ICLR 2025 and ACM MM Asia 2024.</li>
     <li><strong>[Jul. 2024]</strong> Our paper about source-free domain adaptation (SFDA) is accepted to BMVC 2024.</li>
     <li><strong>[Jun. 2024]</strong> Our paper about fine-grained FSCIL is accepted to PR.</li>
-</ul>
+  
 
-<p><a href="javascript:toggleVisibility('newsmore')" id="toggleButton">Show more</a></p>
-
-<div id="newsmore" style="display:none">
-    <ul>
-        <li><strong>[May. 2024]</strong> I have been invited to serve as reviewer of NeurIPS 2024 and PR.</li>
-        <li><strong>[Apr. 2024]</strong> Our paper about few-shot class-incremental learning (FSCIL) is accepted to TNNLS.</li>
-        <li><strong>[Feb. 2024]</strong> I have been invited to serve as reviewer of ACM MM 2024, ICME 2024 and TNNLS.</li>
-        <li><strong>[Jan. 2024]</strong> Our paper about anomaly detection on power grid is accepted to TIA.</li>
-        <li><strong>[Jan. 2024]</strong> Our paper about Lie algebra enabled ultra-FGVC is accepted to TNNLS.</li>
-        <li><strong>[Dec. 2023]</strong> I have been invited to serve as reviewer of CVPR 2024.</li>
-        <li><strong>[Jun. 2023]</strong> Our ARC Research Hub has won the 2023 Triple-E Global Innovation and Entrepreneurship Team of the Year (Rising Star) Award.</li>
-        <li><strong>[Oct. 2022]</strong> Our paper about incremental learning on ultra-FGVC is accepted to WACV.</li>
-        <li><strong>[Sep. 2021]</strong> Our paper about fine-grained classification is accepted to DICTA.</li>
-        <li><strong>[Dec. 2020]</strong> Our paper about frequency response analysis of modern air conditioners is accepted to TSG.</li>
-        <li><strong>[Nov. 2019]</strong> Our paper is accepted to ROBIO as an oral presentation paper.</li>
-    </ul>
+<li> <a href="#" onclick="toggleVis(this); return false;">Show more</a> </li>
+<div id="newsmore" style="display:none"> 
+    <li><strong>[May. 2024]</strong> I have been invited to serve as reviewer of NeurIPS 2024 and PR.</li>
+    <li><strong>[Apr. 2024]</strong> Our paper about few-shot class-incremental learning (FSCIL) is accepted to TNNLS.</li>
+    <li><strong>[Feb. 2024]</strong> I have been invited to serve as reviewer of ACM MM 2024, ICME 2024 and TNNLS.</li>
+    <li><strong>[Jan. 2024]</strong> Our paper about anomaly detection on power grid is accepted to TIA.</li>
+    <li><strong>[Jan. 2024]</strong> Our paper about Lie algebra enabled ultra-FGVC is accepted to TNNLS.</li>
+    <li><strong>[Dec. 2023]</strong> I have been invited to serve as reviewer of CVPR 2024.</li>
+    <li><strong>[Jun. 2023]</strong> Our ARC Research Hub has won the 2023 Triple-E Global Innovation and Entrepreneurship Team of the Year (Rising Star) Award.</li>
+    <li><strong>[Oct. 2022]</strong> Our paper about incremental learning on ultra-FGVC is accepted to WACV.</li>
+    <li><strong>[Sep. 2021]</strong> Our paper about fine-grained classification is accepted to DICTA.</li>
+    <li><strong>[Dec. 2020]</strong> Our paper about frequency response analysis of modern air conditioners is accepted to TSG.</li>
+    <li><strong>[Nov. 2019]</strong> Our paper is accepted to ROBIO as an oral presentation paper.</li>
 </div>
-
-<script>
-  function toggleVisibility(id) {
-    var element = document.getElementById(id);
-    var button = document.getElementById('toggleButton');
-    if (element.style.display === 'none') {
-      element.style.display = 'block';
-      button.innerText = 'Show less';
-    } else {
-      element.style.display = 'none';
-      button.innerText = 'Show more';
-    }
-  }
-</script>
-
-<h1 id="publications"></h1>
-
-<h2 style="margin: 60px 0px -15px;">Selected Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=GsURDp0AAAAJ" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp><temp style="font-size:15px;">[</temp><a href="https://orcid.org/0000-0001-5890-0165" target="_blank" style="font-size:15px;">ORCID</a><temp style="font-size:15px;">]</temp></h2>
-
-<div class="publications">
-<ol class="bibliography">
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="/assets/img/tip_sega.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">TIP</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://ieeexplore.ieee.org/document/10965908">Session-Guided Attention in Continuous Learning with Few Samples</a></div>
-      <div class="author"><strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Yongsheng Gao</div>
-      <div class="periodical"><em>IEEE Transactions on Image Processing <strong>(TIP)</strong>, 2025.</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://ieeexplore.ieee.org/document/10965908" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-       
-      <a href="https://github.com/zichengpan/SEGA" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="/assets/img/CLA-Net.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">ACMMM</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="">Contrastive Lie Algebra Learning for Ultra-Fine-Grained Visual Categorization</a></div>
-      <div class="author">Xiaohan Yu*, <strong><u>Zicheng Pan*</u></strong>, Yang Zhao, Qin Zhang, Yongsheng Gao (* Equal contribution)</div>
-      <div class="periodical"><em>ACM Multimedia <strong>(ACMMM)</strong>, Accepted.</em>
-      </div>
-    <div class="links">
-      
-       
-      <a href="https://github.com/zichengpan/CLA-NET" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="/assets/img/pfc_pr.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">PR</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://www.sciencedirect.com/science/article/pii/S0031320324007763">Overcoming Learning Bias via Prototypical Feature Compensation for Source-Free Domain Adaptation</a></div>
-      <div class="author"><strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Weichuan Zhang, Yongsheng Gao</div>
-      <div class="periodical"><em>Pattern Recognition <strong>(PR)</strong>, 2024.</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://www.sciencedirect.com/science/article/pii/S0031320324007763" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-       
-      <a href="https://github.com/zichengpan/PFC" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="/assets/img/tnnls_dycr.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">TNNLS</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://ieeexplore.ieee.org/document/10531293">DyCR: A Dynamic Clustering and Recovering Network for Few-Shot Class-Incremental Learning</a></div>
-      <div class="author"><strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Miaohua Zhang, Weichuan Zhang, Yongsheng Gao</div>
-      <div class="periodical"><em>IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, 2024.</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://ieeexplore.ieee.org/document/10531293" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-       
-      <a href="https://github.com/zichengpan/DyCR" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="/assets/img/pfr_pr.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">PR</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://www.sciencedirect.com/science/article/pii/S0031320324004370">Pseudo-Set Frequency Refinement Architecture for Fine-Grained Few-Shot Class-Incremental Learning</a></div>
-      <div class="author"><strong><u>Zicheng Pan</u></strong>, Weichuan Zhang, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao</div>
-      <div class="periodical"><em>Pattern Recognition <strong>(PR)</strong>, 2024.</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://www.sciencedirect.com/science/article/pii/S0031320324004370" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-       
-      <a href="https://github.com/zichengpan/PFR" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="/assets/img/tnnls_deepLA.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">TNNLS</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://ieeexplore.ieee.org/abstract/document/10426795">Self-Supervised Lie Algebra Representation Learning via Optimal Canonical Metric</a></div>
-      <div class="author">Xiaohan Yu*, <strong><u>Zicheng Pan*</u></strong>, Yang Zhao, Yongsheng Gao <br /> (* Equal contribution)</div>
-      <div class="periodical"><em>IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, 2024.</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://ieeexplore.ieee.org/abstract/document/10426795" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="/assets/img/EIANet.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">BMVC</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://arxiv.org/abs/2407.16189">EIANet: A Novel Domain Adaptation Approach to Maximize Class Distinction with Neural Collapse Principles</a></div>
-      <div class="author"><strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Yongsheng Gao</div>
-      <div class="periodical"><em>British Machine Vision Conference <strong>(BMVC)</strong>, 2024.</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://arxiv.org/abs/2407.16189" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-       
-      <a href="https://github.com/zichengpan/EIANet" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="/assets/img/wacv_ssfe.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">WACV</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://openaccess.thecvf.com/content/WACV2023/html/Pan_SSFE-Net_Self-Supervised_Feature_Enhancement_for_Ultra-Fine-Grained_Few-Shot_Class_Incremental_Learning_WACV_2023_paper.html">SSFE-Net: Self-Supervised Feature Enhancement for Ultra-Fine-Grained Few-Shot Class Incremental Learning</a></div>
-      <div class="author"><strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao</div>
-      <div class="periodical"><em>IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2023.</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://openaccess.thecvf.com/content/WACV2023/html/Pan_SSFE-Net_Self-Supervised_Feature_Enhancement_for_Ultra-Fine-Grained_Few-Shot_Class_Incremental_Learning_WACV_2023_paper.html" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-       
-      <a href="https://github.com/zichengpan/SSFE-Net" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="/assets/img/tsg.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />
-            <abbr class="badge">TSG</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="https://ieeexplore.ieee.org/abstract/document/9142241">Extraction of Dynamic Frequency Response Characteristics and Modelling of Modern Air Conditioners</a></div>
-      <div class="author">Feifei Bai, Ruifeng Yan, Tapan Kumar Saha, Yi Cui, <strong><u>Zicheng Pan</u></strong></div>
-      <div class="periodical"><em>IEEE Transactions on Smart Grid <strong>(TSG)</strong>, 2020.</em>
-      </div>
-    <div class="links">
-       
-      <a href="https://ieeexplore.ieee.org/abstract/document/9142241" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      
-      
-      
-      
-      
-      
-    </div>
-  </div>
-</div>
-</li>
-
-<br />
-
-
-
-
-</ol>
-</div>
-
-<h1 id="services"></h1>
-
-<h2 style="margin: 60px 0px 10px;">Services</h2>
-
-<!-- <h4 style="margin:0 10px 0;">Organization Committee</h4>
-
-<ul style="margin:0 0 5px;">
-  <li>Website Chair, <a href="https://bmvc2024.org/people/organisers/"><autocolor>The British Machine Vision Conference (BMVC)</autocolor></a> <a href="https://bmvc2022.org/people/organisers/"><autocolor>2022</autocolor></a>-<a href="https://bmvc2024.org/people/organisers/"><autocolor>2024</autocolor></a></li>
-  <li>Website Master, <a href="https://www.acmmmasia.org/2020/committee.html"><autocolor>ACM International Conference on Multimedia in Asia (MM Asia) 2020</autocolor></a></li>
-</ul> -->
-
-<!-- <h4 style="margin:0 10px 0;">Area Chairs</h4>
-
-<ul style="margin:0 0 5px;">
-  <li><a href="https://bmvc2024.org/"><autocolor>The British Machine Vision Conference (BMVC) 2024</autocolor></a></li>
-</ul> -->
-
-<!-- <h4 style="margin:0 10px 0;">Program Committee</h4>
-
-<ul style="margin:0 0 5px;">
-  <li><a href="https://ijcai-21.org/"><autocolor>International Joint Conference on Artificial Intelligence (IJCAI) 2021</autocolor></a></li>
-</ul> -->
-
-<h4 style="margin:0 10px 0;">Program Committee Member</h4>
-
-<ul style="margin:0 0 5px;">
-  <li>International Joint Conference on Artificial Intelligence (IJCAI), 2025</li>
-  <li>AAAI Conference on Artificial Intelligence (AAAI) Undergraduate Consortium, 2025</li>
-  <li>European Conference on Artificial Intelligence (ECAI), 2025</li>
-</ul>
-
-<h4 style="margin:0 10px 0;">Area Chair</h4>
-
-<ul style="margin:0 0 5px;">
-  <li>International Joint Conference on Neural Networks (IJCNN), 2025</li>
 
 </ul>
-
-<h4 style="margin:0 10px 0;">Conference Reviewer</h4>
-
-<ul style="margin:0 0 5px;">
-  <li>IEEE/CVF International Conference on Computer Vision (ICCV), 2025</li>
-  <li>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024, 2025</li>
-  <li>International Conference on Machine Learning (ICML), 2025</li>
-  <li>International Conference on Learning Representations (ICLR), 2025</li>
-  <li>International Conference on Artificial Intelligence and Statistics (AISTATS), 2025</li>
-  <li>Annual Conference on Neural Information Processing Systems (NeurIPS), 2024, 2025</li>
-  <li>ACM International Conference on Multimedia (ACM MM), 2024, 2025</li>
-  <li>IEEE International Conference on Multimedia and Expo (ICME), 2022, 2024, 2025</li>
-  <li>ACM International Conference on Multimedia in Asia (ACM MM Asia), 2024</li>
-
-</ul>
-
-<h4 style="margin:0 10px 0;">Journal Reviewer</h4>
-
-<ul style="margin:0 0 20px;">
-
-  <li>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</li>
-  <li>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</li>
-  <li>Pattern Recognition (PR)</li>
-  <li>Neural Networks</li>
-  <li>Neurocomputing</li>
-
-</ul>
-
-<h1 id="contact"></h1>
 
 <h2 style="margin: 60px 0px 10px;">Contact</h2>
+
 <p>
 <strong>Office Location:</strong> Griffith University Nathan Campus, N66
 <br />
 <strong>Email:</strong> <email>z.pan [at] griffith.edu.au</email>
+
 </p>
 
 
       <br>
 
-      
-      <small>Last Update:
-            <script>
-              const monthNames = ["January", "Februray", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
-              ];
-              var modiDate = new Date(document.lastModified);
-              var showAs = modiDate.getDate() + ". " + monthNames[modiDate.getMonth()] + " " + modiDate.getFullYear();
-              document.write(showAs);
-            </script>
-      </small> 
       
 
       

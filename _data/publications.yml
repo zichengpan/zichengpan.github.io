@@ -1,36 +1,37 @@
-main:
+journals:
 
   - title: "Session-Guided Attention in Continuous Learning with Few Samples"
     authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Yongsheng Gao
     conference_short: TIP
     conference: IEEE Transactions on Image Processing <strong>(TIP)</strong>, 2025.
+    q1_ranking: "Q1"
+    core_ranking: "CORE A*"
     image: /assets/img/tip_sega.png
     pdf: https://ieeexplore.ieee.org/document/10965908
     code: https://github.com/zichengpan/SEGA
-
-  - title: "Contrastive Lie Algebra Learning for Ultra-Fine-Grained Visual Categorization"
-    authors: Xiaohan Yu*, <strong><u>Zicheng Pan*</u></strong>, Yang Zhao, Qin Zhang, Yongsheng Gao (* Equal contribution)
-    conference_short: ACMMM
-    conference: ACM Multimedia <strong>(ACMMM)</strong>, Accepted.
-    image: /assets/img/CLA-Net.png
-    # pdf: 
-    code: https://github.com/zichengpan/CLA-NET
+    bibtex: https://dblp.org/rec/journals/tip/PanYG25.html?view=bibtex
 
   - title: "Overcoming Learning Bias via Prototypical Feature Compensation for Source-Free Domain Adaptation"
     authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Weichuan Zhang, Yongsheng Gao
     conference_short: PR
-    conference: Pattern Recognition <strong>(PR)</strong>, 2024.
+    conference: Pattern Recognition <strong>(PR)</strong>, 2025.
+    q1_ranking: "Q1"
+    core_ranking: "CORE A*"
     image: /assets/img/pfc_pr.png
     pdf: https://www.sciencedirect.com/science/article/pii/S0031320324007763
     code: https://github.com/zichengpan/PFC
+    bibtex: https://dblp.org/rec/journals/pr/PanYZG25.html?view=bibtex
 
   - title: "DyCR: A Dynamic Clustering and Recovering Network for Few-Shot Class-Incremental Learning"
     authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Miaohua Zhang, Weichuan Zhang, Yongsheng Gao
     conference_short: TNNLS
     conference: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, 2024.
+    q1_ranking: "Q1"
+    core_ranking: "CORE A*"
     image: /assets/img/tnnls_dycr.png
     pdf: https://ieeexplore.ieee.org/document/10531293
     code: https://github.com/zichengpan/DyCR
+    bibtex: https://dblp.org/rec/journals/tnn/PanYZZG25.html?view=bibtex
 
   - title: "Pseudo-Set Frequency Refinement Architecture for Fine-Grained Few-Shot Class-Incremental Learning"
     authors: <strong><u>Zicheng Pan</u></strong>, Weichuan Zhang, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao
@@ -39,58 +40,55 @@ main:
     image: /assets/img/pfr_pr.png
     pdf: https://www.sciencedirect.com/science/article/pii/S0031320324004370
     code: https://github.com/zichengpan/PFR
+    bibtex: https://dblp.org/rec/journals/pr/PanZYZG24.html?view=bibtex
 
   - title: "Self-Supervised Lie Algebra Representation Learning via Optimal Canonical Metric"
-    authors: Xiaohan Yu*, <strong><u>Zicheng Pan*</u></strong>, Yang Zhao, Yongsheng Gao <br> (* Equal contribution)
+    authors: Xiaohan Yu*, <strong><u>Zicheng Pan*</u></strong>, Yang Zhao, Yongsheng Gao
     conference_short: TNNLS
     conference: IEEE Transactions on Neural Networks and Learning Systems <strong>(TNNLS)</strong>, 2024.
+    q1_ranking: "Q1"
+    core_ranking: "CORE A*"
     pdf: https://ieeexplore.ieee.org/abstract/document/10426795
     image: /assets/img/tnnls_deepLA.png
-
-  # - title: Condition Monitoring of Distribution Power Network Assets Using PMU Measurements
-  #   authors: Feifei Bai, Yi Cui, Ruifeng Yan, Tapan Kumar Saha, <strong><u>Zicheng Pan</u></strong>, Ge Zhang, Matthew Zillmann, David Dart
-  #   conference_short: TIA
-  #   conference: IEEE Transactions on Industry Applications <strong>(TIA)</strong>, 2024.
-  #   pdf: https://ieeexplore.ieee.org/abstract/document/10418495
-  #   image: /assets/img/tia_resized.png
-
-  - title: "EIANet: A Novel Domain Adaptation Approach to Maximize Class Distinction with Neural Collapse Principles"
-    authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Yongsheng Gao
-    conference_short: BMVC
-    conference: British Machine Vision Conference <strong>(BMVC)</strong>, 2024.
-    pdf: https://arxiv.org/abs/2407.16189
-    image: /assets/img/EIANet.png
-    code: https://github.com/zichengpan/EIANet
-
-
-  - title: "SSFE-Net: Self-Supervised Feature Enhancement for Ultra-Fine-Grained Few-Shot Class Incremental Learning"
-    authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao
-    conference_short: WACV
-    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2023.
-    pdf: https://openaccess.thecvf.com/content/WACV2023/html/Pan_SSFE-Net_Self-Supervised_Feature_Enhancement_for_Ultra-Fine-Grained_Few-Shot_Class_Incremental_Learning_WACV_2023_paper.html
-    code: https://github.com/zichengpan/SSFE-Net
-    image: /assets/img/wacv_ssfe.png
-
-  # - title: Mask-guided feature extraction and augmentation for ultra-fine-grained visual categorization
-  #   authors: <strong>Zicheng Pan</strong>, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao
-  #   conference_short: DICTA
-  #   conference: Digital Image Computing Techniques and Applications <strong>(DICTA)</strong>, 2021.
-  #   pdf: https://ieeexplore.ieee.org/abstract/document/9647389
-  #   code: https://github.com/zichengpan/DICTA-Masked_Guided_ultra_FGVC
-  #   image: /assets/img/dicta_resized.png
-    # notes: Spotlight
+    bibtex: https://dblp.org/rec/journals/tnn/YuPZG25.html?view=bibtex
 
   - title: Extraction of Dynamic Frequency Response Characteristics and Modelling of Modern Air Conditioners
     authors: Feifei Bai, Ruifeng Yan, Tapan Kumar Saha, Yi Cui, <strong><u>Zicheng Pan</u></strong>
     conference_short: TSG
     conference: IEEE Transactions on Smart Grid <strong>(TSG)</strong>, 2020.
+    q1_ranking: "Q1"
     pdf: https://ieeexplore.ieee.org/abstract/document/9142241
     image: /assets/img/tsg.png
-    # notes: Early Accept
+    bibtex: https://dblp.org/rec/journals/tsg/BaiYSCP21.html?view=bibtex
 
-  # - title: A graph-based image clustering method using mutual information maximization
-  #   authors: Xun Yu, <strong>Zicheng Pan</strong>, Yongsheng Gao
-  #   conference_short: ROBIO
-  #   conference: IEEE International Conference on Robotics and Biomimetics <strong>(ROBIO)</strong>, 2019.
-  #   pdf: https://ieeexplore.ieee.org/abstract/document/8961838
-  #   image: /assets/img/robio_resized.png
+conferences:
+
+  - title: "Contrastive Lie Algebra Learning for Ultra-Fine-Grained Visual Categorization"
+    authors: Xiaohan Yu*, <strong><u>Zicheng Pan*</u></strong>, Yang Zhao, Qin Zhang, Yongsheng Gao
+    conference_short: ACMMM
+    conference: ACM Multimedia <strong>(ACMMM)</strong>, 2025. <strong style="color:red">(Oral Presentation)</strong>
+    core_ranking: "A*"
+    image: /assets/img/CLA-Net.png
+    code: https://github.com/zichengpan/CLA-NET
+    bibtex: 
+
+  - title: "EIANet: A Novel Domain Adaptation Approach to Maximize Class Distinction with Neural Collapse Principles"
+    authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Yongsheng Gao
+    conference_short: BMVC
+    conference: British Machine Vision Conference <strong>(BMVC)</strong>, 2024.
+    core_ranking: "A"
+    pdf: https://arxiv.org/abs/2407.16189
+    image: /assets/img/EIANet.png
+    code: https://github.com/zichengpan/EIANet
+    bibtex: https://dblp.org/rec/journals/corr/abs-2407-16189.html?view=bibtex
+
+  - title: "SSFE-Net: Self-Supervised Feature Enhancement for Ultra-Fine-Grained Few-Shot Class Incremental Learning"
+    authors: <strong><u>Zicheng Pan</u></strong>, Xiaohan Yu, Miaohua Zhang, Yongsheng Gao
+    conference_short: WACV
+    conference: IEEE/CVF Winter Conference on Applications of Computer Vision <strong>(WACV)</strong>, 2023.
+    core_ranking: "A"
+    pdf: https://openaccess.thecvf.com/content/WACV2023/html/Pan_SSFE-Net_Self-Supervised_Feature_Enhancement_for_Ultra-Fine-Grained_Few-Shot_Class_Incremental_Learning_WACV_2023_paper.html
+    code: https://github.com/zichengpan/SSFE-Net
+    image: /assets/img/wacv_ssfe.png
+    bibtex: https://dblp.org/rec/conf/wacv/PanYZG23.html?view=bibtex
+

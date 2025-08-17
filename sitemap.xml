@@ -9,7 +9,28 @@
 <url>
  <loc>https://zichengpan.github.io/</loc>
  <priority>1.0</priority>
- <lastmod>2024-10-10</lastmod>
+ <lastmod>2024-08-01</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://zichengpan.github.io/publications/</loc>
+ <priority>1.0</priority>
+ <lastmod>2024-08-01</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://zichengpan.github.io/services/</loc>
+ <priority>1.0</priority>
+ <lastmod>2024-08-01</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://zichengpan.github.io/projects/</loc>
+ <priority>1.0</priority>
+ <lastmod>2024-08-01</lastmod>
  <changefreq>weekly</changefreq>
 </url>
 

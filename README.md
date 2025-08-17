@@ -1,8 +1,10 @@
-# [zichengpan.github.io](https://zichengpan.github.io/)
+# zichengpan.github.io
+
+This is the source code for Zicheng Pan's academic homepage. Built with Jekyll using a modified version of the minimal-light theme.
 
 ### Using Locally with Jekyll
 
-Install [Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyllrb.com/).
+You need to install [Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyllrb.com/) first.
 
 Install and run:
 
@@ -10,9 +12,8 @@ Install and run:
 bundle install
 bundle exec jekyll server
 ```
-
 View the live page using `localhost`:
-<http://localhost:4000>. The html files are in the `_site` folder.
+<http://localhost:4000>. You can get the html files in the `_site` folder.
 
 ### Acknowledgements
 
@@ -26,5 +27,4 @@ This project uses the source code from the following repositories:
 
 * [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io)
 
-* [yaoyao](https://github.com/yaoyao-liu/yaoyao-liu.github.io)
-
+* [yaoyao](https://github.com/yaoyao-liu/minimal-light)

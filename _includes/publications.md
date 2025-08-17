@@ -1,54 +1,102 @@
 <h1 id="publications"></h1>
 
-<h2 style="margin: 60px 0px -15px;">Selected Publications <temp style="font-size:15px;">[</temp><a href="https://scholar.google.com/citations?user=GsURDp0AAAAJ" target="_blank" style="font-size:15px;">Google Scholar</a><temp style="font-size:15px;">]</temp><temp style="font-size:15px;">[</temp><a href="https://orcid.org/0000-0001-5890-0165" target="_blank" style="font-size:15px;">ORCID</a><temp style="font-size:15px;">]</temp></h2>
+<h2 style="margin: 60px 0px 15px;">Featured Publications</h2>
 
+<p style="margin: 15px 0px 15px; font-size: 16px; color: #595959 !important; font-weight: bold;">For a full list, please refer to my <a href="https://scholar.google.com/citations?user=GsURDp0AAAAJ" target="_blank">Google Scholar</a> and <a href="https://orcid.org/0000-0001-5890-0165" target="_blank">ORCID</a>.</p>
 
-<div class="publications">
-<ol class="bibliography">
+<p style="margin: 15px 0px 30px; font-size: 16px; color: #595959 !important; font-weight: bold;">* Equal contribution</p>
 
-{% for link in site.data.publications.main %}
+<div class="publications-plain">
 
-<li>
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
-            <abbr class="badge">{{ link.conference_short }}</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
+<h3 style="margin: 40px 0px 20px; font-size: 24px; color: #13294B;">Journal Publications</h3>
+
+{% assign journal_counter = 1 %}
+{% for link in site.data.publications.journals %}
+
+<div style="margin-bottom: 25px; text-align: left;">
+  <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+    <span style="font-weight: 600; margin-right: 8px; color: #666; min-width: 25px;">[J{{ journal_counter }}]</span>
+    <div style="flex: 1;">
+      <div class="title" style="font-weight: 600; margin-bottom: 5px; color: #595959 !important;">
+        {% if link.pdf %}<a href="{{ link.pdf }}" target="_blank" style="color: #595959 !important; text-decoration: none;">{{ link.title }}</a>{% else %}{{ link.title }}{% endif %}
       </div>
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
+      <div class="author" style="margin-bottom: 3px;">{{ link.authors }}</div>
+      <div class="periodical" style="margin-bottom: 8px;">
+        {% if link.q1_ranking %}
+        <span class="badge" style="background-color: transparent; color: #595959 !important; border: 1px solid #ccc; margin-right: 5px; font-size: 14px; padding: 2px 8px;">{{ link.q1_ranking }}</span>
+        {% endif %}
+        {% if link.core_ranking %}
+        <span class="badge" style="background-color: transparent; color: #595959 !important; border: 1px solid #ccc; margin-right: 8px; font-size: 14px; padding: 2px 8px;">{{ link.core_ranking }}</span>
+        {% endif %}
+        <em>{{ link.conference }}</em>
+      </div>
+      <div class="links">
+        {% if link.pdf %} 
+        <a href="{{ link.pdf }}" target="_blank" class="btn badge" style="background-color: transparent; color: #595959 !important; border: 1px solid #ccc; margin-right: 5px; font-size: 14px; text-decoration: none; padding: 2px 8px;">PDF</a>
+        {% endif %}
+        {% if link.code %} 
+        <a href="{{ link.code }}" target="_blank" class="btn badge" style="background-color: transparent; color: #595959 !important; border: 1px solid #ccc; margin-right: 5px; font-size: 14px; text-decoration: none; padding: 2px 8px;">Code</a>
+        {% endif %}
+        {% if link.page %} 
+        <a href="{{ link.page }}" target="_blank" class="btn badge" style="background-color: transparent; color: #595959 !important; border: 1px solid #ccc; margin-right: 5px; font-size: 14px; text-decoration: none; padding: 2px 8px;">Project</a>
+        {% endif %}
+        {% if link.data %} 
+        <a href="{{ link.data }}" target="_blank" class="btn badge" style="background-color: transparent; color: #595959 !important; border: 1px solid #ccc; margin-right: 5px; font-size: 14px; text-decoration: none; padding: 2px 8px;">Dataset</a>
+        {% endif %}
+        {% if link.bibtex %} 
+        <a href="{{ link.bibtex }}" target="_blank" class="btn badge" style="background-color: transparent; color: #595959 !important; border: 1px solid #ccc; margin-right: 5px; font-size: 14px; text-decoration: none; padding: 2px 8px;">BibTex</a>
+        {% endif %}
+      </div>
     </div>
   </div>
 </div>
-</li>
 
-<br>
-
+{% assign journal_counter = journal_counter | plus: 1 %}
 {% endfor %}
 
+<h3 style="margin: 40px 0px 20px; font-size: 24px; color: #13294B;">Conference Publications</h3>
 
-</ol>
+{% assign conference_counter = 1 %}
+{% for link in site.data.publications.conferences %}
+
+<div style="margin-bottom: 25px; text-align: left;">
+  <div style="display: flex; align-items: flex-start; margin-bottom: 5px;">
+    <span style="font-weight: 600; margin-right: 8px; color: #666; min-width: 25px;">[C{{ conference_counter }}]</span>
+    <div style="flex: 1;">
+      <div class="title" style="font-weight: 600; margin-bottom: 5px; color: #595959 !important;">
+        {% if link.pdf %}<a href="{{ link.pdf }}" target="_blank" style="color: #595959 !important; text-decoration: none;">{{ link.title }}</a>{% else %}{{ link.title }}{% endif %}
+      </div>
+      <div class="author" style="margin-bottom: 3px;">{{ link.authors }}</div>
+      <div class="periodical" style="margin-bottom: 8px;">
+        {% if link.core_ranking %}
+        <span class="badge" style="background-color: transparent; color: #595959 !important; border: 1px solid #ccc; margin-right: 8px; font-size: 14px; padding: 2px 8px;">CORE {{ link.core_ranking }}</span>
+        {% endif %}
+        <em>{{ link.conference }}</em>
+      </div>
+      <div class="links">
+        {% if link.pdf %} 
+        <a href="{{ link.pdf }}" target="_blank" class="btn badge" style="background-color: transparent; color: #595959 !important; border: 1px solid #ccc; margin-right: 5px; font-size: 14px; text-decoration: none; padding: 2px 8px;">PDF</a>
+        {% endif %}
+        {% if link.code %} 
+        <a href="{{ link.code }}" target="_blank" class="btn badge" style="background-color: transparent; color: #595959 !important; border: 1px solid #ccc; margin-right: 5px; font-size: 14px; text-decoration: none; padding: 2px 8px;">Code</a>
+        {% endif %}
+        {% if link.page %} 
+        <a href="{{ link.page }}" target="_blank" class="btn badge" style="background-color: transparent; color: #595959 !important; border: 1px solid #ccc; margin-right: 5px; font-size: 14px; text-decoration: none; padding: 2px 8px;">Project</a>
+        {% endif %}
+        {% if link.data %} 
+        <a href="{{ link.data }}" target="_blank" class="btn badge" style="background-color: transparent; color: #595959 !important; border: 1px solid #ccc; margin-right: 5px; font-size: 14px; text-decoration: none; padding: 2px 8px;">Dataset</a>
+        {% endif %}
+        {% if link.bibtex %} 
+        <a href="{{ link.bibtex }}" target="_blank" class="btn badge" style="background-color: transparent; color: #595959 !important; border: 1px solid #ccc; margin-right: 5px; font-size: 14px; text-decoration: none; padding: 2px 8px;">BibTex</a>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% assign conference_counter = conference_counter | plus: 1 %}
+{% endfor %}
+
 </div>
 
 

@@ -1,10 +1,11 @@
 /* Add a grey background color to the top navigation */
 .topnav {
-    background-color: #8a8a8a;
+    background-color: #8a8a8a !important;
     overflow: hidden;
 	  position:fixed;
 	  z-index:999;
     width:100%;
+    opacity: 1 !important;
   }
 
   /* Inner container to align with content width */
@@ -53,8 +54,9 @@
   @media print, screen and (max-width: 960px) { 
     .topnav-inner {
         width: auto;
-        margin: 0;
+        margin: 0 auto;
         padding: 0 20px;
+        max-width: 920px;
     }
 
     .topnav a.normal {

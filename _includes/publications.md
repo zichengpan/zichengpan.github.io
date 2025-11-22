@@ -1,6 +1,4 @@
-<h1 id="publications"></h1>
-
-<h2 style="margin: 60px 0px 15px;">Featured Publications</h2>
+<h2 style="margin: 30px 0px 15px;">Featured Publications</h2>
 
 <p style="margin: 15px 0px 15px; font-size: 16px; color: #595959 !important; font-weight: bold;">For a full list, please refer to my <a href="https://scholar.google.com/citations?user=GsURDp0AAAAJ" target="_blank">Google Scholar</a> and <a href="https://orcid.org/0000-0001-5890-0165" target="_blank">ORCID</a>.</p>
 
@@ -8,7 +6,7 @@
 
 <div class="publications-plain">
 
-<h3 style="margin: 40px 0px 20px; font-size: 24px; color: #13294B;">Journal Publications</h3>
+<h3 style="margin: 40px 0px 20px; font-size: 18px; color: #13294B; font-weight: 700;">Journal Publications</h3>
 
 {% assign journal_counter = 1 %}
 {% for link in site.data.publications.journals %}
@@ -54,7 +52,7 @@
 {% assign journal_counter = journal_counter | plus: 1 %}
 {% endfor %}
 
-<h3 style="margin: 40px 0px 20px; font-size: 24px; color: #13294B;">Conference Publications</h3>
+<h3 style="margin: 40px 0px 20px; font-size: 18px; color: #13294B; font-weight: 700;">Conference Publications</h3>
 
 {% assign conference_counter = 1 %}
 {% for link in site.data.publications.conferences %}

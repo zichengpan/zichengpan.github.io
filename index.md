@@ -4,7 +4,7 @@ layout: homepage
 
 ## About
 
-I am a Research Fellow in the School of Engineering and Built Environment at Griffith University, Australia. I completed my PhD at Griffith University in 2025, where my research focused on deep learning and computer vision. Prior to my doctoral studies, I earned a combined Bachelor of Engineering (Honours) and Master of Engineering in Electrical Engineering from the University of Queensland in 2021.
+I am a Research Fellow in the School of Information and Communication Technology at Griffith University, Australia. I completed my PhD at Griffith University in 2025, where my research focused on deep learning and computer vision. Prior to my doctoral studies, I earned a combined Bachelor of Engineering (Honours) and Master of Engineering in Electrical Engineering from the University of Queensland in 2021.
 
 I am recently working on these areas:
 - **Incremental Learning**
@@ -15,12 +15,14 @@ I am recently working on these areas:
 
 <div style="background-color: #e0e0e0; border: 1px solid #ccc; border-radius: 5px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 <p style="color: #d32f2f; font-weight: bold; margin: 0; line-height: 1.6;">
-🎓 Multiple PhD positions available in Computer Vision and Machine Learning (Feb/Jul 2026 intake). Interested candidates are encouraged to contact me with their CV and research interests.
+🎓 Multiple PhD positions available in Computer Vision and Machine Learning (2026 intake). Interested candidates are encouraged to contact me with their CV and research interests.
 </p>
 </div>
 
 ## News
-
+- **[Dec. 2025]** I served as Chief Investigator for the "LiteMotion" project under the National Computational Merit Allocation Scheme (NCMAS 2026).
+- **[Nov. 2025]** I served as Workshop Coordinator for TIME 2026: 2nd International Workshop on Transformative Insights in Multi-faceted Evaluation at The Web Conference (WWW 2026).
+- **[Oct. 2025]** I have been invited to serve as reviewer of CVPR 2026.
 - **[Aug. 2025]** Our paper about fine-grained learning is accepted to PR.
 - **[Jul. 2025]** Our paper about FSCIL is accepted to ICONIP 2025.
 - **[Jul. 2025]** I have been invited to serve as program committee member for AAAI 2026.
@@ -29,7 +31,7 @@ I am recently working on these areas:
 - **[Apr. 2025]** Our paper about FSCIL is accepted to TIP.
 - **[Mar. 2025]** I have been invited to serve as reviewer of ICCV 2025, NeurIPS 2025, and ACM MM 2025.
 - **[Jan. 2025]** I have been invited to serve as program committee member for IJCAI 2025 and reviewer of TCSVT.
-- **[Dec. 2024]** I have been invited to serve as area chair for IJNN 2025 and reviewer of ICML 2025.
+- **[Dec. 2024]** I have been invited to serve as area chair for IJCNN 2025 and reviewer of ICML 2025.
 - **[Nov. 2024]** I have been invited to serve as reviewer of CVPR 2025 and Neurocomputing.
 - **[Oct. 2024]** I joined School of Engineering and Built Environment at Griffith University as Research Fellow.
 - **[Oct. 2024]** I have been invited to serve as program committee member of AAAI 2025 Undergraduate Consortium.

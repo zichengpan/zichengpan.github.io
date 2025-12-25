@@ -19,6 +19,12 @@
   <li><a href="https://ijcai-21.org/"><autocolor>International Joint Conference on Artificial Intelligence (IJCAI) 2021</autocolor></a></li>
 </ul> -->
 
+<h4 style="margin:0 10px 0;">Program Chair</h4>
+
+<ul style="margin:0 0 5px;">
+  <li>ACM Web Conference Workshop (WWW)</li>
+</ul>
+
 <h4 style="margin:0 10px 0;">Program Committee Member</h4>
 
 <ul style="margin:0 0 5px;">
@@ -55,7 +61,9 @@
 
 <ul style="margin:0 0 20px;">
 
+  <li>IEEE Transactions on Image Processing (TIP)</li>
   <li>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</li>
+  <li>IEEE Transactions on Consumer Electronics (TCE)</li>
   <li>IEEE Transactions on Multimedia (TMM)</li>
   <li>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</li>
   <li>Pattern Recognition (PR)</li>

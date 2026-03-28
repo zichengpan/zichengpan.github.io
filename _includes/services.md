@@ -52,6 +52,7 @@
   <li>International Conference on Artificial Intelligence and Statistics (AISTATS)</li>
   <li>Annual Conference on Neural Information Processing Systems (NeurIPS)</li>
   <li>ACM International Conference on Multimedia (ACM MM)</li>
+  <li>The British Machine Vision Conference (BMVC)</li>
   <li>IEEE International Conference on Multimedia and Expo (ICME)</li>
   <li>ACM International Conference on Multimedia in Asia (ACM MM Asia)</li>
 
@@ -66,6 +67,7 @@
   <li>IEEE Transactions on Consumer Electronics (TCE)</li>
   <li>IEEE Transactions on Multimedia (TMM)</li>
   <li>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</li>
+  <li>Engineering Applications of Artificial Intelligence</li>
   <li>Pattern Recognition (PR)</li>
   <li>Neural Networks</li>
   <li>Neurocomputing</li>

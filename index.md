@@ -4,24 +4,26 @@ layout: homepage
 
 ## About
 
-I am a Research Fellow in the School of Information and Communication Technology at Griffith University, Australia. I completed my PhD at Griffith University in 2025, where my research focused on deep learning and computer vision. Prior to my doctoral studies, I earned a combined Bachelor of Engineering (Honours) and Master of Engineering in Electrical Engineering from the University of Queensland in 2021.
+<p style="text-align: justify;">I am a Research Fellow in the School of Electrical Engineering and Computer Science (EECS) at the University of Queensland, Australia. My research sits at the intersection of machine learning and power systems, with a focus on enabling intelligent monitoring, fault detection, and data-driven decision-making for modern power grids and renewable energy systems. I completed my PhD at Griffith University in 2025, and hold a combined Bachelor of Engineering (Honours) and Master of Engineering in Electrical Engineering from the University of Queensland (2021).</p>
 
-I am recently working on these areas:
-- **Incremental Learning**
-- **Domain Adaptation**
-- **Fine-grained Classification**
-- **Vision-Language Models**
-- **Large-Language Models**
+My current research interests include:
+- **Time Series Analysis**
+- **Anomaly Detection**
+- **Machine Learning & Deep Learning**
+- **Large Language Models (LLMs)**
+- **Embedded Systems & Edge Device Integration**
+- **Power System Analysis**
 
-<div style="background-color: #e0e0e0; border: 1px solid #ccc; border-radius: 5px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<!-- <div style="background-color: #e0e0e0; border: 1px solid #ccc; border-radius: 5px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 <p style="color: #d32f2f; font-weight: bold; margin: 0; line-height: 1.6;">
 🎓 Multiple PhD positions available in Computer Vision and Machine Learning (2026 intake). Interested candidates are encouraged to contact me with their CV and research interests.
 </p>
-</div>
+</div> -->
 
 ## News
+- **[Apr. 2026]** I joined School of Electrical Engineering and Computer Science (EECS) at the University of Queensland as Research Fellow.
 - **[Dec. 2025]** I served as Chief Investigator for the "LiteMotion" project under the National Computational Merit Allocation Scheme (NCMAS 2026).
-- **[Nov. 2025]** I served as Workshop Coordinator for TIME 2026: 2nd International Workshop on Transformative Insights in Multi-faceted Evaluation at The Web Conference (WWW 2026).
+- **[Nov. 2025]** I served as Program Chair for TIME 2026: 2nd International Workshop on Transformative Insights in Multi-faceted Evaluation at The Web Conference (WWW 2026).
 - **[Oct. 2025]** I have been invited to serve as reviewer of CVPR 2026.
 - **[Aug. 2025]** Our paper about fine-grained learning is accepted to PR.
 - **[Jul. 2025]** Our paper about FSCIL is accepted to ICONIP 2025.
@@ -59,6 +61,6 @@ I am recently working on these areas:
 
 ## Contact
 
-**Office Location:** Griffith University Nathan Campus, N66
+**Office Location:** The University of Queensland, St. Lucia, Building 47-304
 
-**Email:** z.pan [at] griffith.edu.au
+**Email:** zicheng.pan [at] uq.net.au
